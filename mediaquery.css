@@ -1,0 +1,37 @@
+body
+{ 
+    background-color: black
+
+}
+
+div
+{
+    height: 60px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 35px;
+    color: bisque;
+    font-weight: 700;
+
+}
+@media only screen and (max-width:900px)
+{
+    div{
+        background-color: white;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+
+    }
+a{
+    color: gray;
+    text-transform: uppercase;
+}
+}
